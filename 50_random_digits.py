@@ -10,8 +10,7 @@ def main():
     x = []
     for num in range(COUNT):
         numbers = random.randint(-100, 100)
-        if numbers not in x:
-            x.append(numbers)
+        x.append(numbers)
     print(x)
 
     for digit in x:
@@ -22,5 +21,5 @@ def main():
         else:
             print('Zero is number too:', digit)
 
-
-main()
+if __name__== "__main__":
+    main()
